@@ -19,7 +19,7 @@ function GifGrid({categories}) {
         <>
          
         <h1>{categories}</h1>
-        {loading && <p >Cargando...</p>}
+        {loading && <p>Cargando...</p>}
 
         <div className='cardGrid'>
             

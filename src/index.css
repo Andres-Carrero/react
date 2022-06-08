@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: 'Times New Roman', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 35px;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid blue;
+  border-radius: 25px;
+  overflow: hidden;
+  align-items: center ;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  text-align: center;
+  font-size:12px;
+}
+
+.card img {
+  max-height: 175px;
+  max-height: auto;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
